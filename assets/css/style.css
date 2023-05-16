@@ -1,0 +1,60 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**Geral**/
+body{
+    background-color: #3B4664;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-up{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-up-left h2{
+    color: #fff
+}
+.box-up-right{
+    display: flex;
+    color: #fff;
+    box-sizing: 5px;
+}
+.select ol{
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+}
+.box-select{
+    display: flex;
+}
+.box-center input{
+    width: 500px;
+    height: 120px;
+    background-color: #181F32;
+    border: 1px solid #181F32;
+    
+}
+.caixa01{
+    width: 500px;
+    height: 500px;
+    background-color: #252D44;
+    border: 1px solid #252D44;
+}
+.botao01{
+    width: 100px;
+    height: 50px;
+    background-color: #E9E3DB;
+    border: 1px solid #E9E3DB;
+}
+
+
